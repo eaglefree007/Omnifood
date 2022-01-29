@@ -10,8 +10,8 @@
      font-size: 4.4rem;
    }
    .gallary {
-     grid-template-columns: repeat(2, 1fr);
-   }
+    grid-template-columns: repeat(3, 1fr);
+  }
  }
 
 
@@ -45,9 +45,6 @@
    .testimonial-container {
      padding: 9.6rem 3.2rem;
    }
-   .gallary {
-    grid-template-columns: repeat(3, 1fr);
-  }
  }
 
   /* ******************************
@@ -74,7 +71,7 @@
     margin-top: 3.2rem;
   }
   .logos img {
-    height: 2.6rem;
+    height: 2.4rem;
   }
   .step-number {
     font-size: 7.4rem; 
@@ -86,7 +83,7 @@
     grid-template-columns: 1fr;
   }
   .gallary {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     /* grid-template-columns: 55rem 45rem; */
   }
   .cta {
@@ -226,9 +223,9 @@
   .testimonials {
     grid-template-columns: 1fr;
   }
-  /* .section-testimonial{
+  .section-testimonial{
     grid-template-columns: 1fr;
-  } */
+  }
   .gallary {
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
