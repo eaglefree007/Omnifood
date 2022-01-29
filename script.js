@@ -1,4 +1,3 @@
-console.log('eaglefree007');
 // make mobile navigation work
 
 
