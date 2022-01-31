@@ -44,12 +44,12 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
     console.log(ent);
     if (ent.isIntersecting === false) {
-      // document.body.classList.add("sticky");
-      document.querySelector(".header").classList.add("sticky");
+      document.body.classList.add("sticky");
+//       document.querySelector(".header").classList.add("sticky");
     }
     if (ent.isIntersecting === true) {
-      // document.body.classList.remove("sticky");
-      document.querySelector(".header").classList.remove("sticky");
+      document.body.classList.remove("sticky");
+//       document.querySelector(".header").classList.remove("sticky");
 
     }
   },
